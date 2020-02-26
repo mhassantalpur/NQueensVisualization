@@ -9,7 +9,7 @@ public class Queens extends JFrame implements Runnable
 	public boolean [] saferow;
 	public boolean [] safeleftdiag;
 	public boolean [] saferightdiag;
-  private ShapePanel drawPanel; // panel for the board to be drawn
+	private ShapePanel drawPanel; // panel for the board to be drawn
 	private JLabel info;		// informative label
 	private JButton runDemo;	// button to allow interaction
 	private Thread runThread;	// thread to allow "motion"
@@ -67,7 +67,7 @@ public class Queens extends JFrame implements Runnable
 	}
 
   public void trycol(int col)
-	{
+  {
 		calls++;
 		for (int row = 0; row < 8; row++)
 		{
